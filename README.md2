@@ -1,0 +1,42 @@
+Financial Performance Dashboard (Tableau)
+Overview
+
+This project explores company financial performance across (countries, products, and time
+periods).
+Using Tableau, I created an interactive dashboard that tracks (sales, profit, discounts, and
+COGS ) to help identify profitable regions, product trends, and the impact of discounts on
+revenue.
+
+Objective
+
+- Analyze sales and profit trends across countries and product categories
+- Understand the relationship between discounts and revenue
+- Calculate profitability metrics such as profit margin and cost-to-sales ratio
+- Provide interactive filters for stakeholders to explore performance in detail
+
+Tools & Technologies
+
+- Tableau Desktop
+- Microsoft Excel (dataset)
+
+Dataset
+(https://drive.google.com/file/d/1PGTp4teuL7jArkWCw-
+dd2YiZ6BZtlUMw/view?usp=sharing)
+
+Key Features
+
+- Country Performance : Sales & profit comparison across countries
+- Trend Analysis : Line charts showing sales & profit over time
+- Discount Analysis : Scatter plots to examine discounts vs gross sales
+- Product Insights : Heat maps showing the effect of discount bands on products
+
+Key Insights
+
+- Some high-sales countries show low profit margins, indicating high costs
+- Discounts above 20% start to reduce overall profitability
+- Certain products maintain consistent profits regardless of discount strategy
+
+How to Run
+1. Download the dataset
+2. Open Financial_Performance_Dashboard.twbx in Tableau
+3. Use filters (Year, Segment, Country, Product) to explore insights
