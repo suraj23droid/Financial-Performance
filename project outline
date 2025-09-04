@@ -1,19 +1,23 @@
 Project Outline For Financial Performance Dashboard in Tableau:
+
 1. Data Preparation & Setup
 ● Imported and understood the dataset.
 ● Connected to the dataset, ensured all columns are in appropriate data types,
 and corrected any anomalies.
 ● Steps:
+
 1. Imported the dataset into Tableau.
 2. Inspected each column and ensured correct data types (dates, numerical
 values, categorical data).
 3. Identified missing values and handled them.
 4. Performed initial inspection and understood unique values in categorical
 columns (e.g., Segment, Country).
+
 2. Exploratory Data Analysis (EDA)
 ● Generated insights, understood relationships, and prepared the data for
 calculated fields and KPIs.
 ● Key EDA Operations:
+
 1. Sales Distribution by Segment: Aggregated and visualized sales for each
 segment.
 2. Sales Trends over Time: Plot sales trends by month and year.
@@ -28,8 +32,10 @@ sales.
 8. COGS vs. Sales: Identified cost-heavy products and regions.
 9. Profit by Segment and Product: Compared analysis.
 10. Discount Patterns by month or product category.
+
 3. Calculated Fields:
 ● Generated specific fields to drive KPI insights and analytical depth.
+
 1. Net Sales: Gross Sales - Discounts.
 2. Profit Margin %: (Profit / Sales) * 100.
 3. Total Cost: COGS + Discounts.
@@ -42,7 +48,9 @@ Sold])}.
 8. Average Manufacturing Price per Unit.
 9. Cumulative Sales by Month: RUNNING_SUM([Sales]).
 10. Monthly Sales Target: Created a static or dynamic target.
+
 4. Key Performance Indicators (KPIs)
+
 ● Measured and benchmarked financial performance metrics.
 1. Total Revenue: SUM([Sales]).
 2. Total Units Sold.
@@ -54,7 +62,9 @@ Sold])}.
 8. Year-over-Year Sales Growth.
 9. Revenue by Product.
 10. Profit by Country.
+
 5. Data Visualization
+
 1. Line Chart for Sales Trends over Time.
 2. Bar Chart for Sales by Segment.
 3. Pie Chart for Profit by Product.
@@ -65,8 +75,10 @@ Sold])}.
 8. Histogram for Sales Distribution.
 9. Stacked Bar Chart for Gross Sales, Discounts, and Net Sales.
 10. Area Chart for Cumulative Sales.
+
 6. Dashboard Creation
 ● Design and Layout:
+
 ○ Overall Summary: Overview of Total Sales, Profit, and COGS.
 ○ Sales by Segment/Product.
 ○ Profitability by Country and Segment.
