@@ -1,0 +1,18 @@
+Profit Margin: 
+       To analyze profitability.
+Profit Margin = SUM([Profit]) / SUM([Sales])
+
+Total Discounts = SUM([Discounts])
+
+Total Revenue = SUM([Gross Sales])
+
+COGS to Sales = SUM([COGS]) / SUM([Sales])
+
+IF SUM([Sales]) != 0 THEN SUM([Profit]) / SUM([Sales]) END
+
+Cost-to-Sales Ratio: 
+              IF SUM([Sales]) != 0 THEN SUM([COGS]) / SUM([Sales]) END
+
+Total Revenue = SUM([Gross Sales])
+
+Discount Impact = SUM([Discounts]) / SUM([Gross Sales])
